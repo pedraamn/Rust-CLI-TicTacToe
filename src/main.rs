@@ -57,8 +57,7 @@ fn main() {
         println!("Opponent has moved. Your turn.")
     }
     print_board(&board);
-    println!("{}", winner)
-
+    println!("{}", winner);
 }
 
 fn print_board<T: Display>(vec: &Vec<Vec<T>>) {
